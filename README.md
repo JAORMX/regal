@@ -222,6 +222,7 @@ The following rules are currently available:
 | imports   | [prefer-package-imports](https://docs.styra.com/regal/rules/imports/prefer-package-imports)         | Prefer importing packages over rules                      |
 | imports   | [redundant-alias](https://docs.styra.com/regal/rules/imports/redundant-alias)                       | Redundant alias                                           |
 | imports   | [redundant-data-import](https://docs.styra.com/regal/rules/imports/redundant-data-import)           | Redundant import of data                                  |
+| imports   | [use-rego-v1](https://docs.styra.com/regal/rules/imports/use-rego-v1)                               | Use `import rego.v1`                                      |
 | style     | [avoid-get-and-list-prefix](https://docs.styra.com/regal/rules/style/avoid-get-and-list-prefix)     | Avoid `get_` and `list_` prefix for rules and functions   |
 | style     | [chained-rule-body](https://docs.styra.com/regal/rules/style/chained-rule-body)                     | Avoid chaining rule bodies                                |
 | style     | [default-over-else](https://docs.styra.com/regal/rules/style/default-over-else)                     | Prefer default assignment over fallback else              |
